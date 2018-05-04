@@ -1,3 +1,3 @@
-images/*.xcf
+static/images/*.xcf
 files/
 *.txt

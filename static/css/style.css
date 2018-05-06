@@ -123,6 +123,8 @@ ul.number li a:hover{
 .head-nav ul li a:hover,.head-nav ul li.active a{
   color:#333423;
 }
+
+
 ul a:hover,
 ul a:focus {
   outline: none;
@@ -328,7 +330,7 @@ ul.social li a, ul.social li span {
   display: block;
   font-size: 1em;
 }
-i.fb {
+/*i.fb {
   width: 20px;
   height: 20px;
   display: inline-block;
@@ -367,7 +369,7 @@ i.skyp {
   background: url(../images/img-sprite.png) no-repeat -438px -121px;
   vertical-align: middle;
   margin-right: 0.5em;
-}
+}*/
 .footer h3 {
   color: #58593c;
   font-size: 1.4em;

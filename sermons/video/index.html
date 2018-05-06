@@ -19,12 +19,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="/static/js/jquery-migrate.js"></script>
 <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.1/jquery-migrate.min.js"></script> -->
+<link href="/static/css/fontawesome-all.min.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="icon" href="/static/images/favicon.ico">
 </head>
 <body>
 <!-- header -->
 <div class="header">
 		<div class="header-top">
-			<div class="container">
+			<div class="container-fluid">
 				<div class="head-left">
 					<ul class="number">
 						<li><span>Next Worship : Sunday at 10:00am</span></li>					
@@ -32,11 +34,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 				<div class="head-right">
 					<ul class="number">
-						<li><a href="#">Need Prayer </a></li>|
-						<li><a href="#"> Sermons </a></li>|
-						<li><a href="#">Online Giving </a></li>|
-						<li><a href="#">Praying Groups</a></li>|
-						<li><a href="#">Worship Services</a></li>
+						<li><a href="/"><i class="fas fa-handshake"></i> Welcome to KINGDOM HARVESTERS MINISTRY </a></li>|
+					<li><a href="mailto:info@khm.org.uk"><i class="fas fa-envelope"></i> info@khm.org.uk</a></li>|
+					<li><a href="#"><i class="fas fa-mobile-alt"></i> +233244231376</a></li>
 						<div class="clearfix"> </div>						
 					</ul>
 				</div>
@@ -46,7 +46,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="header-bottom">
 			<div class="container">
 				<div class="logo">
-					<a href="/index.html"><img src="/static/images/khm_logo.png" class="img-responsive" alt="" /></a>
+					<a href="/index.html"><img src="/static/images/khm_logo.png" class="img-fluid" alt="" /></a>
 				</div>
 				<!--<div class="bottom-left">
 					<a href="register.html">NEW HERE? GET INVOLVED</a>
@@ -60,7 +60,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="head-nav">
 				<span class="menu"></span>
 					<ul class="cl-effect-15">
-						<li class="active"><a href="/index.html">HOME</a></li><label>|</label>
+						<li><a href="/index.html">HOME</a></li><label>|</label>
 						<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">MINISTRIES</a>
 							   <div class="dropdown-menu">
 					      			<a class="dropdown-item" href="/ministries/our-pastorate/">Our Pastorate</a>
@@ -69,7 +69,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</li><label>|</label>
 						<li><a href="/about-us">ABOUT</a></li><label>|</label>
 						<li><a href="/our-services">SERVICES</a></li><label>|</label>
-						<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">SERMONS</a>
+						<li class="nav-item dropdown active"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">SERMONS</a>
 							   <div class="dropdown-menu">
 					      			<a class="dropdown-item" href="/sermons/blog/">Read</a>
 					      			<a class="dropdown-item" href="/sermons/video/">Watch</a>
@@ -120,8 +120,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			Takoradi, Ghana
 			Opposite Takoradi Technical University
 		</p>
-			<p><span>Telephone :</span> +233 (024) 493 8483</p>
-			<span>Email : </span><a href="mailto:info@khm.org.uk">info@khm.org.uk</a>
+			<p><span>Telephone :</span> +233 (024) 493 8483
+			<span>Email : </span><a href="mailto:info@khm.org.uk">info@khm.org.uk</a></p>
 		</div>
 		<div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 ma">
 		<h3>MAP</h3>
@@ -129,20 +129,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 		<div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 or">
 			<h3>Our Church</h3>
-			<li><a href="ourmission.html">• Ministries</a></li>
-			<li><a href="services.html">• Our Service</a></li>
-			<li><a href="study.html">• Blog</a></li>
-			<li><a href="404.html">• Events</a></li>
-			<li><a href="prayer.html">• About Us</a></li>
+			<ul>
+			<li><a href="/ministries/our-pastorate">• Ministries</a></li>
+				<li><a href="/about-us">• About Us</a></li>
+				<li><a href="/our-services">• Church Service</a></li>
+				<li><a href="/sermons/blog">• Blog</a></li>
+				<li><a href="/events">• Events</a></li>
+			</ul>
 		</div>
 		<div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 con">
 			<h3>Get Connected</h3>
 			<ul class="social">
-						<li><a href="https://www.facebook.com/kingdomharvestersministriesgh"><i class="fb"> </i>Facebook</a></li>
-						<li><a href="#"><i class="twt"> </i>Twitter</a></li>
-						<li><a href="#"><i class="yout"> </i>Instagram</a></li>
-						<!--<li><a href="#"><i class="lik"> </i>Likedin</a></li>
-						<li><a href="#"><i class="skyp"> </i>Skype</a></li>	 -->					
+						<li><a href="https://www.facebook.com/kingdomharvestersministriesgh"><i class="fab fa-facebook"> </i> Facebook</a></li>
+				<li><a href="#"><i class="fab fa-twitter"> </i> Twitter</a></li>
+				<li><a href="#"><i class="fab fa-instagram"> </i> Instagram</a></li>
+				<li><a href="#"><i class="fab fa-youtube"> </i> Youtube</a></li>					
 							<div class="clearfix"> </div>						
 					</ul>
 		</div>
@@ -155,7 +156,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="container">
 		<div class="col-sm-6 col-md-6 offset-md-3 col-lg-6 offset-lg-3 col-xl-6 offset-xl-3 text-center">
 			<p>&copy;2018 Kingdom Harvesters Ministry.	 All Rights Reserved<br>
-			Developed By KHM Media Team - W3layouts Template<br>
+			Developed By KHM Media Team
 		</p>
 		</div>
 	</div>

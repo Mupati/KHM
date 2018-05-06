@@ -4,3 +4,13 @@
 .verse {
 	font-size: 14px;
 }
+
+
+.social li a:hover{
+	color: #554f46;
+}
+/*pastorate*/
+/*.pastorate .container{
+	padding-top: 5em;
+	padding-bottom: 5em;
+}*/

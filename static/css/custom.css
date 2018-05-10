@@ -9,8 +9,43 @@
 .social li a:hover{
 	color: #554f46;
 }
-/*pastorate*/
-/*.pastorate .container{
-	padding-top: 5em;
-	padding-bottom: 5em;
+
+.flex-viewport {
+		max-height:350px !important; 
+		-webkit-transition: all 1s ease; 
+		-moz-transition: all 1s ease; 
+		transition: all 1s ease;
+	}
+
+.loading .flex-viewport {
+	max-height: 350px !important;
+}
+
+@media screen and (max-width: 1024px) {
+		.flex-viewport {
+			max-height: 328px !important;
+		}
+	}	
+
+
+@media screen and (max-width: 768px) {
+	.flex-viewport {
+		max-height: 500px !important;
+		}
+	}
+
+@media screen and (max-width: 480px) {
+	.flex-viewport {
+		max-height: 550px !important;
+		}
+	}
+
+@media screen and (max-width: 320px) {
+	.flex-viewport {
+		max-height: 360px !important;
+	}
+}
+
+/*.confess-right p{
+	overflow-y: hidden;
 }*/

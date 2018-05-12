@@ -31,9 +31,34 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="container-fluid">
 				<div class="head-left">
 					<ul class="number">
-						<li><span>Next Worship : Sunday at 10:00am</span></li>					
+						<li><span></span></li>					
 					</ul>
 				</div>
+				<script>
+			switch(new Date().getDay()){
+					case 0:
+						$("span").text("Meeting: Sunday, Divine Service @ 7:00am");
+						break;
+					case 1:
+						$("span").text("Meeting: Monday, Youth Service @ 5:30pm");
+						break;
+					case 2:
+						$("span").text("Meeting: Tomorrow @ 5:30pm");
+						break;
+					case 3:
+						$("span").text("Meeting: Wednesday, Bible Study @ 5:30pm");
+						break;
+					case 4:
+						$("span").text("Meeting: Tomorrow @ 5:30pm");
+						break;
+					case 5:
+						$("span").text("Meeting: Friday, Power Night Service @ 5:30pm");
+						break;
+					case 6:
+						$("span").text("Meeting: Tomorrow @ 5:30pm");
+						break;
+					}
+				</script>
 				<div class="head-right">
 					<ul class="number">
 						<li><a href="/"><i class="fas fa-handshake"></i> Welcome to KINGDOM HARVESTERS MINISTRY </a></li>|

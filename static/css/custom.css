@@ -25,24 +25,46 @@
 		.flex-viewport {
 			max-height: 328px !important;
 		}
+		.flexslider .slides img {
+			width: 100%;
+			margin: 0 auto;
+		}
 	}	
 
 
 @media screen and (max-width: 768px) {
 	.flex-viewport {
-		max-height: 500px !important;
+		max-height: 380px !important;
 		}
-	}
 
+		.flexslider .slides img {
+			width: 100%;
+			margin: 0 auto;
+		 }
+	}
+@media screen and (max-width: 640px){
+	.flexslider .slides img {
+	width: 100%;
+	margin: 0 auto;
+	}
+}
 @media screen and (max-width: 480px) {
 	.flex-viewport {
 		max-height: 550px !important;
+		}
+		.flexslider .slides img {
+			width: 100%;
+			margin: 0 auto;
 		}
 	}
 
 @media screen and (max-width: 320px) {
 	.flex-viewport {
-		max-height: 360px !important;
+		max-height: 510px !important;
+	}
+	.flexslider .slides img {
+		width: 100%;
+		margin: 0 auto;
 	}
 }
 

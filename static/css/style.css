@@ -167,7 +167,7 @@ position:relative;
   text-align: center;
 }
 .confess-top {
-  margin: 5em 0 0;
+ /* margin: 5em 0 0;*/
   background:#f3f0ea;
     padding: 2em 1em;
   box-shadow:0px 0px 2px 0px;
@@ -224,11 +224,11 @@ text-transform:uppercase;
 .rooted {
   margin: 5em 0;
 }
-.grndd {
+/*.grndd {
   padding: 0 0 3em;
-}
+}*/
 .worsh {
-  padding: 3em 0 0;
+/*  padding: 3em 0 0;*/
   border-top: 1px solid #e8e8e8;
 }
 .recent{
@@ -416,9 +416,9 @@ span {
   font-size: 1em;
   color: #1e0875;
 }
-.or {
+/*.or {
   padding: 0 3em;
-}
+}*/
 .footer ul li a:hover{
 color: white;/*#333423;*/
 }
@@ -654,7 +654,7 @@ color:#97956c;
   background: #91856E;
 }
 .contact_address, .contact_email {
-  overflow: hidden;
+/*  overflow: hidden;*/
   font-size: 1.1em;
   color: #758594;
   line-height: 1.8em;
@@ -772,14 +772,14 @@ color:#97956c;
   width: 23.75%;
   display: none;
   float: left;
-  overflow: hidden;
+/*  overflow: hidden;*/
   /*margin: 0.5em 0.5em;*/
 }
 div#portfoliolist {
   padding: 0px 0px;
 } 
 .portfolio-wrapper {
-  overflow:hidden;
+/*  overflow:hidden;*/
   position: relative !important;
   cursor:pointer;
 }
@@ -823,7 +823,7 @@ div#portfoliolist {
 .row:after {
   content: '\0020';
   display: block;
-  overflow: hidden;
+/*  overflow: hidden;*/
   visibility: hidden;
   width: 0;
   height: 0; 
@@ -835,7 +835,7 @@ div#portfoliolist {
 .clear {
   clear: both;
   display: block;
-  overflow: hidden;
+/*  overflow: hidden;*/
   visibility: hidden;
   width: 0;
   height: 0;
@@ -1135,7 +1135,7 @@ padding-right: 1em;
   margin-top: 23px;
   color: #666;
   background: #f5cd8a;
-  overflow: hidden;
+/*  overflow: hidden;*/
   width: 40%;
   display: block; 
   font-size: 1em;
@@ -1482,7 +1482,7 @@ a.more {
 }
 .study p {
   font-size: 1em;
-  overflow: hidden;
+/*  overflow: hidden;*/
   height: 81px;
 }
 .prayer h2 {
@@ -1500,7 +1500,7 @@ a.vie {
   font-size: 1.1em;
 }
 .prayer p {
-  overflow: hidden;
+/*  overflow: hidden;*/
   height: 168px;
 }
 /*#portfoliolist .portfolio {
@@ -1625,12 +1625,12 @@ ul.number li {
 .rooted h3 {
   font-size: 1.2em;
 }
-.grndd {
+/*.grndd {
   padding: 0 0 1em;
-}
-.worsh {
+}*/
+/*.worsh {
   padding: 1em 0 0;
-}
+}*/
 .rooted-right {
   margin-top: 2em;
 }
@@ -1646,7 +1646,7 @@ ul.number li {
   width: 30%;
 }
 .or {
-  padding: 0 0em;
+ /* padding: 0 0em;*/
   float: left;
   width: 20%;
 }
@@ -1692,7 +1692,7 @@ ul.social li a, ul.social li span {
 }*/
 .service h4 {
   font-size: 0.9em;
-  overflow: hidden;
+/*  overflow: hidden;*/
   height: 30px;
 }
 .service p {
@@ -1705,7 +1705,7 @@ ul.social li a, ul.social li span {
   font-size: 0.8125em;
   padding: 0em 2em;
   text-align: left;
-  overflow: hidden;
+/*  overflow: hidden;*/
   height: 104px;
 }
 .service h3 {
@@ -1811,9 +1811,9 @@ ul.social li a, ul.social li span {
 .header-bottom{
 padding:1em 0;
 }
-.confess-top {
+/*.confess-top {
   margin: 2em 0 0;
-}
+}*/
 .mission {
   padding: 3em 0 2em;
 }
@@ -1866,7 +1866,7 @@ a.vie {
   width: 27%;
 }
 .or {
-  padding: 0 0em;
+ /* padding: 0 0em;*/
   float: left;
   width: 19%;
 }
@@ -1912,7 +1912,7 @@ a.vie {
 }
 .confess-right h2 {
   font-size: 1em;
-  overflow: hidden;
+/*  overflow: hidden;*/
   height: 13px;
 }
 .confess-right p {
@@ -1944,7 +1944,7 @@ a.more {
   width: 57%;
 }
 .or {
-  padding: 0 0em;
+/*  padding: 0 0em;*/
   float: left;
   width: 44%;
 }
@@ -1964,7 +1964,7 @@ a.more {
 }
 .mission h6 {
   font-size: 1em;
-  overflow: hidden;
+/*  overflow: hidden;*/
   height: 23px;
 }
 .mission p {
@@ -1993,13 +1993,13 @@ a.more {
 }
 .study h6 {
   font-size: 0.875em;
-  overflow: hidden;
+/*  overflow: hidden;*/
   height: 26px;
   text-align: center;
 }
 .study p {
   font-size: 0.875em;
-  overflow: hidden;
+/*  overflow: hidden;*/
   height: 81px;
 }
 .prayer h2 {
@@ -2063,7 +2063,7 @@ a.more {
 }
 .artical-content p {
   font-size: 0.875em;
-  overflow: hidden;
+/*  overflow: hidden;*/
   height: 180px;
 }
 .artical-links ul li a span {
@@ -2150,7 +2150,7 @@ a.b-home {
   padding: 1em 0 1em;
 }
 .confess-top {
-  margin: 1em 0 0;
+ /* margin: 1em 0 0;*/
   padding: 1em 1em;
 }
 .confess-right h2 {
@@ -2158,8 +2158,8 @@ a.b-home {
 }
 .confess-right p {
   font-size: 0.875em;
-  overflow: hidden;
-  height: 64px;
+ /* overflow: hidden;
+  height: 64px;*/
 }
 a.more {
   font-size: 0.8125em;
@@ -2170,12 +2170,12 @@ a.more {
 .rooted h6 {
   font-size: 0.8125em;
   text-align: center;
-  overflow: hidden;
+/*  overflow: hidden;*/
   height: 19px;
 }
 .rooted p {
   font-size: 0.875em;
-  overflow: hidden;
+/*  overflow: hidden;*/
   height: 64px;
 }
 a.vie {
@@ -2205,14 +2205,14 @@ a.vie {
 .or{
   float: left;
   width: 50%;
-  padding: 0 15px;
+/*  padding: 0 15px;*/
 }
 .con{
   float: left;
   width: 50%;
 }
 .confess-left iframe{
-height:147px;
+height:170px;
 }
 /*.events {
   padding: 2em 0px;
@@ -2238,7 +2238,7 @@ ul.social li {
 .mission p {
   font-size: 0.875em;
   margin: 0.5em 0;
-  overflow: hidden;
+/*  overflow: hidden;*/
   height: 65px;
 }
 .mission h2 {
@@ -2270,7 +2270,7 @@ i.sett {
 }
 .mission h6 {
   font-size: 0.9em;
-  overflow: hidden;
+/*  overflow: hidden;*/
   height: 20px;
 }
 .service h2 {
@@ -2280,7 +2280,7 @@ i.sett {
   font-size: 1em;
 }
 .service p {
-  overflow: hidden;
+/*  overflow: hidden;*/
   height: 64px;
 }
 .service {
@@ -2305,7 +2305,7 @@ i.sett {
 }
 .prayer h6 {
   font-size: 0.8125em;
-  overflow: hidden;
+/*  overflow: hidden;*/
   height: 22px;
 }
 .prayer p {
@@ -2367,7 +2367,7 @@ i.sett {
 }
 .top-comment-right p {
   font-size: 0.875em;
-  overflow: hidden;
+/*  overflow: hidden;*/
   height: 50px;
 }
 .confess-top {

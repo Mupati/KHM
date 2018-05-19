@@ -1,10 +1,10 @@
-.verse h4{
-	color: green;
-}
-.verse {
-	font-size: 14px;
+.wor a{
+	font-size: 0.8em;
 }
 
+.verse h4,.wor h4{
+	font-size: 1.2em;
+}
 
 .social li a:hover{
 	color: #554f46;

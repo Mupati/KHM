@@ -224,11 +224,11 @@ text-transform:uppercase;
 .rooted {
   margin: 5em 0;
 }
-/*.grndd {
+.grndd {
   padding: 0 0 3em;
-}*/
+}
 .worsh {
-/*  padding: 3em 0 0;*/
+padding: 3em 0 0;
   border-top: 1px solid #e8e8e8;
 }
 .recent{
@@ -427,9 +427,9 @@ color: white;/*#333423;*/
   padding-left: 0px;
 }
 /*-- mission --*/
-.mission {
+/*.mission {
   padding: 5em 0;
-}
+}*/
 .mission h2 {
   color: #58593c;
   font-size: 1.7em;
@@ -446,7 +446,7 @@ color: white;/*#333423;*/
 .mission p {
   color: #6d6d6d;
   font-size: 1em;
-  margin: 1em 0;
+/*  margin: 0 0 1em 0;*/
   line-height: 1.8em;
 }
 .sed-con {
@@ -485,9 +485,9 @@ i.sett {
   display: inline-block;
   vertical-align: middle;
 }
-.mission-bottom {
+/*.mission-bottom {
   padding: 3em 0;
-}
+}*/
 .sed-left {
   margin: 1em 0;
 }
@@ -772,14 +772,14 @@ color:#97956c;
   width: 23.75%;
   display: none;
   float: left;
-/*  overflow: hidden;*/
+  overflow: hidden;
   /*margin: 0.5em 0.5em;*/
 }
 div#portfoliolist {
   padding: 0px 0px;
 } 
 .portfolio-wrapper {
-/*  overflow:hidden;*/
+  overflow:hidden;
   position: relative !important;
   cursor:pointer;
 }
@@ -823,7 +823,7 @@ div#portfoliolist {
 .row:after {
   content: '\0020';
   display: block;
-/*  overflow: hidden;*/
+  overflow: hidden;
   visibility: hidden;
   width: 0;
   height: 0; 
@@ -835,7 +835,7 @@ div#portfoliolist {
 .clear {
   clear: both;
   display: block;
-/*  overflow: hidden;*/
+  overflow: hidden;
   visibility: hidden;
   width: 0;
   height: 0;
@@ -1542,9 +1542,9 @@ a.vie {
 .service {
   padding: 5em 0 2em;
 }
-.mission {
+/*.mission {
   padding: 5em 0 2em;
-}
+}*/
 .single-page-artical {
   padding: 4em 0 2em;
 }
@@ -1589,6 +1589,7 @@ a.vie {
   display: none;
   text-align: center;
   background: #d0a93d;/*#E6C27F;*/
+  opacity: 0.75;
   left:0em;
   top:3.5em;
 }
@@ -1625,12 +1626,12 @@ ul.number li {
 .rooted h3 {
   font-size: 1.2em;
 }
-/*.grndd {
+.grndd {
   padding: 0 0 1em;
-}*/
-/*.worsh {
+}
+.worsh {
   padding: 1em 0 0;
-}*/
+}
 .rooted-right {
   margin-top: 2em;
 }
@@ -1680,12 +1681,12 @@ ul.social li a, ul.social li span {
 .mission-right {
   margin-top: 2em;
 }
-.mission h2 {
+/*.mission h2 {
   font-size: 1.2em;
-}
-.mission-bottom {
+}*/
+/*.mission-bottom {
   padding: 3em 0 0;
-}
+}*/
 /*.service_grid {
   width: 33.33%;
   float: left;
@@ -1705,7 +1706,7 @@ ul.social li a, ul.social li span {
   font-size: 0.8125em;
   padding: 0em 2em;
   text-align: left;
-/*  overflow: hidden;*/
+  overflow: hidden;
   height: 104px;
 }
 .service h3 {
@@ -1814,9 +1815,9 @@ padding:1em 0;
 /*.confess-top {
   margin: 2em 0 0;
 }*/
-.mission {
+/*.mission {
   padding: 3em 0 2em;
-}
+}*/
 .service {
   padding: 3em 0 2em;
 }
@@ -1912,7 +1913,7 @@ a.vie {
 }
 .confess-right h2 {
   font-size: 1em;
-/*  overflow: hidden;*/
+  overflow: hidden;
   height: 13px;
 }
 .confess-right p {
@@ -1962,15 +1963,15 @@ a.more {
 .mission h2 {
   font-size: 1.1em;
 }
-.mission h6 {
+/*.mission h6 {
   font-size: 1em;
-/*  overflow: hidden;*/
+  overflow: hidden;
   height: 23px;
-}
+}*/
 .mission p {
   font-size: 0.875em;
-  margin: 1em 0;
-}
+/*  margin: 1em 0;
+*/}
 /*.service_grid {
   width: 100%;
   float: none;
@@ -2158,8 +2159,8 @@ a.b-home {
 }
 .confess-right p {
   font-size: 0.875em;
- /* overflow: hidden;
-  height: 64px;*/
+  overflow: hidden;
+/*  height: 64px;*/
 }
 a.more {
   font-size: 0.8125em;
@@ -2170,12 +2171,12 @@ a.more {
 .rooted h6 {
   font-size: 0.8125em;
   text-align: center;
-/*  overflow: hidden;*/
+  overflow: hidden;
   height: 19px;
 }
 .rooted p {
   font-size: 0.875em;
-/*  overflow: hidden;*/
+  overflow: hidden;
   height: 64px;
 }
 a.vie {
@@ -2232,14 +2233,14 @@ ul.social li {
 .footer h3 {
   font-size: 0.875em;
 }
-.mission {
+/*.mission {
   padding: 1em 0 0em;
-}
+}*/
 .mission p {
   font-size: 0.875em;
-  margin: 0.5em 0;
-/*  overflow: hidden;*/
-  height: 65px;
+/*  margin: 0.5em 0;
+  overflow: hidden;
+  height: 65px;*/
 }
 .mission h2 {
   font-size: 1em;
@@ -2268,21 +2269,21 @@ i.sett {
   background: url(../images/img-sprite.png)no-repeat -172px -5px;
   background-size: 22em;
 }
-.mission h6 {
+/*.mission h6 {
   font-size: 0.9em;
-/*  overflow: hidden;*/
+  overflow: hidden;
   height: 20px;
-}
+}*/
 .service h2 {
   font-size: 1.2em;
 }
 .service h3 {
   font-size: 1em;
 }
-.service p {
-/*  overflow: hidden;*/
-  height: 64px;
-}
+/*.service p {
+  overflow: hidden;
+  /*height: 64px;
+}*/
 .service {
   padding: 1em 0 1em;
 }

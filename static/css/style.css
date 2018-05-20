@@ -591,7 +591,7 @@ color:#97956c;
   display: block;
   padding: 0 0 0.5em;
 }
-.contact-form-row div input[type="text"]{
+.contact-form-row div input[type="text"] , div input[type="email"]{
   width:100%;
   padding:1em;  
   font-family: 'Droid Sans', sans-serif;

@@ -129,7 +129,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="container">
 		<h2>contact</h2>
 					<div class="contact-head text-center">
-						<p>Lorem ipsum dolor sit amet, congue nihil imperdiet doming id quod mazim placerat consectetuer adipiscing congue nihil imperdiet doming id quod mazim placerat elit</p>
+						<p>You can contact us to share testimonies, send prayer requests, book appointment with our Daddy, any other concerns and place your order for the Pas Charis Devotional.</p>
 					</div>		
 					<!-- contact-grids -->		
 					<div class="contact-grids">
@@ -157,31 +157,39 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<!-- contact-form-->
 						<!-- <div class="row"> -->
 							<h2 class="text-center">Leave us a Message</h2>
+												<!-- message feedback -->
+								<!-- 	<div class="col-12">
+				<div class="dv-notify-success" style="color: green !important">Message Sent</div>
+				<div class="dv-notify-failed" style="color: red !important">Failed to Send Message</div>
+									</div> -->
+								      <!-- //message feedback -->
 						<div class="contact-form">
-							<form>
+							<form class="dv-add-oneto:Church:khm">
 								<div class="contact-form-row">
-									<div>
-										<span>Name :</span>
-										<input type="text" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
-									</div>
-									<div>
-										<span>Email :</span>
-										<input type="text" class="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
-									</div>
-									<div>
-										<span>Subject :</span>
-										<input type="text" class="text" value="Subject" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject';}">
-									</div>
-									<div class="clearfix"> </div>
-								</div>
-								<div class="clearfix"> </div>
-								<div class="contact-form-row2">
-									<span>Message :</span>
-									<textarea> </textarea>
-								</div>
-								<input type="submit" value="send">
-							</form>
+							<div>
+								<span>Name :</span>
+								<input type="text" class="text" value="eg: Kenneth Arthur" name="name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'eg:Kenneth Arthur';}" required="True">
+							</div>
+							<div>
+								<span>Email :</span>
+								<input type="email" class="text" value="eg: ken@gmail.com" name="email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'eg: ken@gmail.com';}">
+							</div>
+							<div>
+								<span>Subject :</span>
+								<input type="text" class="text" value="eg: Request For Devotional" name="subject" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'eg: Request For Devotional';}" required="True">
+							</div>
+							<div class="clearfix"> </div>
 						</div>
+						<div class="clearfix"> </div>
+						<div class="contact-form-row2">
+							<span>Message :</span>
+							<textarea  required="True" name="message" placeholder="eg: Please I want a copy of Pas Charis Devotional sent to me. (Include Phone Number If you don't have an email address)"></textarea>
+						</div>
+						<input type="submit" value="Send" href="#" data-toggle="modal" data-target="#contact" role="button">
+					</form>
+				<!-- 	onclick="this.value=='Sent'"  -->
+					<!-- 	<a class="btn btn-primary btn-lg hvr-underline-from-left text-uppercase" href="#" data-toggle="modal" data-target="#contact" role="button">Read More »</a> -->
+				</div>
 				<!-- 	</div> -->
 						<!--contact-form -->
 					</div>
@@ -237,7 +245,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="container">
 		<div class="col-sm-6 col-md-6 offset-md-3 col-lg-6 offset-lg-3 col-xl-6 offset-xl-3 text-center">
 			<p>&copy;2018 Kingdom Harvesters Ministry.	 All Rights Reserved<br>
-			Developed By KHM Media Team
+			Developed By KHM Media.
 		</p>
 		</div>
 	</div>
@@ -245,8 +253,35 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- footer -->
 
 
+
+<!-- feedback modal -->
+<div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="Request Feedback" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h5 class="modal-title text-uppercase" id="exampleModalLongTitle">Request Feedback</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center">
+		<p>
+			<div class="dv-notify-success text-success">Your Message Has Been Received</div>
+			<div class="dv-notify-failed text-danger">Sending Message Failed!! Check your Inputs</div>
+		</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary float-right" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--//feedback modal -->
+
+
 <script src="/static/js/popper.min.js"></script>
 <script src="/static/js/bootstrap4.js"></script>
+<script src="http://localhost:4545/js/devless-sdk.js" class="devless-connection" devless-con-token="00c41647176ef85da6f9d75d88a6f343"  ></script>
 <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
 

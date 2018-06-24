@@ -75,3 +75,8 @@
 /*.confess-right p{
 	overflow-y: hidden;
 }*/
+
+/*events*/
+.events .card-img-top{
+	height: 12em;
+}

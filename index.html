@@ -25,6 +25,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="/static/js/jquery-migrate.js"></script>
 <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.1/jquery-migrate.min.js"></script> -->
+<script>
+	$(document).ready(function(){
+	$.ajax({
+	url:'https://dailyverses.net/getdailyverse.ashx?language=kjv&isdirect=1&url=' + window.location.hostname,
+	dataType: 'JSONP',
+	success:function(json){
+	$(".dailyVersesWrapper").prepend(json.html);
+	}
+	});
+	});
+</script>
+
 <!-- Favicons -->
 <!-- <link rel="icon" href="/static/images/favicon.ico"> -->
 <link rel="icon" type="image/png" sizes="32x32" href="/static/images/favicon.png">
@@ -330,7 +342,12 @@ $(window).load(function(){
 	<div class="col-12">
 	<div class="verse">
 		<h4><strong>Bible Verse of the Day</strong></h4>
-		<script src="http://www.verse-a-day.com/js/KJV.js"></script>
+		<div class="dailyVersesWrapper">
+			<!-- <div class="dailyVerses linkToWebsite"><a href="https://dailyverses.net" target="_blank">DailyVerses.net</a></div> -->
+		</div>
+				
+		<!-- <a href="https://dailyverses.net/getdailyverse.ashx?language=kjv"></a> -->
+		<!-- <script src="http://www.verse-a-day.com/js/KJV.js"></script> -->
 	</div>
 	</div>
 

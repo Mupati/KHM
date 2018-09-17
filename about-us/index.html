@@ -29,33 +29,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="container-fluid">
 				<div class="head-left">
 					<ul class="number">
-						<li><span></span></li>					
+						<li id="prog"></li>					
 					</ul>
 				</div>
+				<script src="/static/js/Helperfunctions.js"></script>
 				<script>
-			switch(new Date().getDay()){
-					case 0:
-						$("span").text("Meeting: Sunday, Divine Service @ 7:00am");
-						break;
-					case 1:
-						$("span").text("Meeting: Monday, Youth Service @ 5:30pm");
-						break;
-					case 2:
-						$("span").text("Meeting: Tomorrow @ 5:30pm");
-						break;
-					case 3:
-						$("span").text("Meeting: Wednesday, Bible Study @ 5:30pm");
-						break;
-					case 4:
-						$("span").text("Meeting: Tomorrow @ 5:30pm");
-						break;
-					case 5:
-						$("span").text("Meeting: Friday, Power Night Service @ 5:30pm");
-						break;
-					case 6:
-						$("span").text("Meeting: Tomorrow @ 7:00am");
-						break;
-					}
+					$(window).load(function() {
+							let meeting = new Helperfunctions
+							meeting.nextProg();
+					});
 				</script>
 				<div class="head-right">
 					<ul class="number">

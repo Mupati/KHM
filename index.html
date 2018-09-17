@@ -48,57 +48,28 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="container-fluid">
 				<div class="head-left">
 					<ul class="number">
-						<li><span></span></li>					
+						<li id="prog"></li>					
 					</ul>
 				</div>
+				<script src="/static/js/Helperfunctions.js"></script>
 				<script>
-			switch(new Date().getDay()){
-					case 0:
-						$("span").text("Meeting: Sunday, Divine Service @ 7:00am");
-						break;
-					case 1:
-						$("span").text("Meeting: Monday, Youth Service @ 5:30pm");
-						break;
-					case 2:
-						$("span").text("Meeting: Tomorrow @ 5:30pm");
-						break;
-					case 3:
-						$("span").text("Meeting: Wednesday, Bible Study @ 5:30pm");
-						break;
-					case 4:
-						$("span").text("Meeting: Tomorrow @ 5:30pm");
-						break;
-					case 5:
-						$("span").text("Meeting: Friday, Power Night Service @ 5:30pm");
-						break;
-					case 6:
-						$("span").text("Meeting: Tomorrow @ 7:00am");
-						break;
-					}
+					$(window).load(function() {
+							let meeting = new Helperfunctions
+							meeting.nextProg();
+					});
 				</script>
-				
-		
+
 			<div class="head-right">
 				<ul class="number">
 					<li><a href="/"><i class="fas fa-handshake"></i>&nbsp;Welcome to KINGDOM HARVESTERS MINISTRY</a></li>|
 					<li><a href="mailto:info@khm.org.uk"><i class="fas fa-envelope"></i>&nbsp;info@khm.org.uk</a></li>|
 					<li><a href="#"><i class="fas fa-mobile-alt"></i>&nbsp;+233244231376</a></li>
-					<!-- |
-					<li><a href="#">Praying Groups</a></li>|
-					<li><a href="#">Worship Services</a></li> -->
 							<div class="clearfix"> </div>						
 					</ul>
 				</div>
 					<div class="clearfix"> </div>
 			</div>
 		</div>
-<!-- 		<script type="text/javascript">
-		$(window).load(function(){
-					  $("li span").text(
-						"God is Good";
-					  );
-					});
-		</script> -->
 		<div class="header-bottom">
 			<div class="container">
 				<div class="logo">

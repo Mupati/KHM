@@ -36,6 +36,9 @@
 			width: 100%;
 			margin: 0 auto;
 		}
+		.jp-audio{
+			width: 40em !important;
+		}
 	}	
 
 
@@ -48,6 +51,10 @@
 			width: 100%;
 			margin: 0 auto;
 		 }
+
+		 .jp-audio{
+			width: 30em !important;
+		}
 	}
 @media screen and (max-width: 640px){
 	.flexslider .slides img {
@@ -63,6 +70,10 @@
 			width: 100%;
 			margin: 0 auto;
 		}
+
+		.jp-audio{
+			width: 20em !important;
+		}
 	}
 
 @media screen and (max-width: 320px) {
@@ -73,7 +84,21 @@
 		width: 100%;
 		margin: 0 auto;
 	}
+
+	.jp-audio{
+		width: 15em !important;
+	}
+	.jp-playlist ul li div a, .jp-playlist-current ul li div a{
+		font-size: 13px;
+	}
 }
+
+@media screen and (min-width: 1024px) {
+
+	.jp-audio{
+		width: 40em !important;
+	}
+}	
 
 /*.confess-right p{
 	overflow-y: hidden;
@@ -82,4 +107,22 @@
 /*events*/
 .events .card-img-top{
 	height: 12em;
+}
+
+
+/*jplayer audio styles*/
+
+
+.jp-progress{
+	margin-top: 4px !important;
+	margin-left: 3px;
+}
+
+.jp-playlist ul li div, .jp-playlist-current ul li{
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+}
+
+.jp-playlist ul li div a, .jp-playlist-current ul li div a{
+	font-size: 22px;
 }
